@@ -37,7 +37,7 @@ paths:
             application/json:
               example: This is a demo API.
         '400':
-          $ref: '#/components/responses/badReque'
+          $ref: '#/components/responses/badReques'
   /activities:
     post:
       tags:
