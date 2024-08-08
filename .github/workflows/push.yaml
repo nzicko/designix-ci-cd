@@ -20,7 +20,7 @@ jobs:
           organization: 'designix'
           project: 'designix'
           mountPath: '/api-hub'
-          files: ''
+          files: 'guide.md learning_OpenAPI.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
