@@ -19,7 +19,7 @@ jobs:
         with:
           organization: 'designix'
           project: 'designix'
-          mountPath: '/api-hub'
+          mountPath: '/api-hub/ci-cd'
           files: 'guide.md learning_OpenAPI.yaml'
           domain: 'https://app.cloud.redocly.com'
         env:
